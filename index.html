@@ -1,0 +1,461 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifood do senas | Estação do lanche </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <style>
+        .navbar{
+            height: 63px;
+            background-color: #FFD704;
+        }
+        .logolanche{
+            height: 20px;
+        }
+
+        .zapzap{
+            height: 20px; 
+        }
+
+        .zapzapp{
+            background-color: #0bd42b;
+            border-radius: 20px;
+            gap: 34px;
+            left: 677px;
+            top: 17px;
+        }
+
+        .umadeliciadesabor{
+            text-align: center;
+            color: white;
+            font-size: 64px;
+        }
+
+        .clientesexigentes{
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+
+        .vermaisprodutos{
+          background-color: red;
+          color: white;
+          width: 260px;
+          height: 41px;
+          border-radius: 18px;
+
+        }
+
+        .tituloslanche{
+            color: #de0a0a;
+        }
+
+        .imagem3{
+            height: 188px;
+            width: 464px;
+            
+        }
+
+        .imagem4{
+            height: 188px;
+            width: 464px;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .imagem5{
+            width: 301px;
+            height: 193px;
+            border-radius: 10px;
+            top: 41px;
+            left: 122px;
+        }
+
+        .imagem6{
+            width: 301px;
+            height: 193px;
+            border-radius: 10px;
+            top: 41px;
+            left: 122px;
+        }
+
+        .imagem7{
+            width: 301px;
+            height: 193px;
+            border-radius: 10px;
+            top: 41px;
+            left: 122px;
+        }
+
+        .imagem8{
+            width: 295px;
+            height: 197px;
+            top: 39px;
+            left: 546px;
+        }
+
+        .imagem9{
+            width: 295px;
+            height: 197px;
+            top: 39px;
+            left: 546px;
+        }
+
+        .imagem10{
+            width: 192px;
+            height: 127px;
+            top: 254px;
+            left: 546px;
+        }
+
+        .imagem11{
+            width: 192px;
+            height: 127px;
+            top: 254px;
+            left: 546px;
+        }
+
+        .imagem12{
+            width: 192px;
+            height: 127px;
+            top: 254px;
+            left: 546px;
+        }
+
+
+        .instagram{
+            width: 31px;
+            height: 35px;
+            top: 244px;
+            left: 135px;
+        }
+
+        .instagramgeral{
+            text-align: center;
+            color: white;
+        }
+
+        .youtube{
+            width: 29px;
+            height: 26px;
+            top: 296px;
+            left: 135px;
+            color: white;
+        }
+
+        .youtubegeral{
+            text-align: center;
+            color: white;
+        }
+
+        .tiktok{
+            width: 17px;
+            height: 19.8px;
+            top: 340px;
+            left: 141px;
+            color: white;
+        }
+
+        .tiktokgeral{
+            text-align: center;
+            color: white;
+           
+        }
+
+        .segue{
+            font-size: 55px;
+            margin-top: 5px;
+            color: #FFD704;
+        }
+
+        .euquero{
+            border-radius: 20px;
+            background-color: #de0a0a;
+            color: #FFD704;
+            text-align: center;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        :root{
+            --cor--amarela: #FFD704;
+            --cor--vermelha: #740d0d;
+            --cor--bege: #ffd5043e;
+        }
+
+        .amarelo, .branco_final{
+            height: 50px;
+        }
+        .vermelho{
+            background-color: var(--cor--vermelha);
+        }
+        .vermelho_2{
+            background-color: white;
+            height: 450px;
+            margin: 20px;
+        }
+        .vermelho_3{
+            background-color: red;
+            min-height: 350px;
+        }
+        .quadrado{
+            background-color:red;
+            min-height: 130px; width: 500px;
+            margin: 20px;
+            align-items: center;
+        }
+        .amarelao, .amarelo{
+            background-color: #FFD704;
+        }
+        .quadrado_vermelho{
+            background-color: red;
+            height: 130px; 
+            margin: 20px;
+        }
+        .branco,.vermelho, .bege, .amarelao{
+            min-height: 300px;
+        }
+        .bege{
+            background-color: var(--cor--bege);
+        }
+        .verde{
+            background-color: rgb(0, 255, 0);
+            height: 300px;
+            border: solid 1px black;
+        }
+        .cinza{
+            background-color: rgb(197, 194, 194);
+            height: 150px;
+            border: solid 2px red;
+        }
+        .branco_final{
+            background-color: white;
+            border: 1px solid var(--cor--amarela);
+        }
+
+        iframe{
+            max-width: 100%;
+        }
+
+        .block-mobile img {
+            max-width: 100%;
+            margin: 20px 0px;
+        }
+
+        @media (max-width: 600px) {
+            .d-flex.block-mobile {
+                display: block !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <img src="imagens2.0/1.svg" alt="" class="logolanche">
+          <a class="navbar-brand" href="#">Estação do Lanche</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse justify-content-end navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link zapzapp" href="#"><img src="imagens2.0/whatsapp.svg" alt="" class="zapzap"> Faça seu pedido</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="container-fluid">
+        <div class="row img d-flex justify-content-center align-items-center" style="background-image: url(imagens2.0/2.jpg); height: 500px;
+        background-position: center;
+        background-size: contain; background-repeat: no-repeat; background-size: cover;">
+            <div class="col-12 text-center">
+                <p class="umadeliciadesabor">Uma delícia de sabor</p>
+                <p class="clientesexigentes">Para os clientes mais exigentes.</p>
+                <a href="#prods">
+                    <button class="vermaisprodutos align-items-center">VER MAIS PRODUTOS </button>
+                </a>
+            </div>
+        </div>
+
+        <div id="prods" class="row amarelao d-flex justify-content-center align-items-center">
+            <div class="col-sm-12 d-flex justify-content-around block-mobile">
+               <img src="imagens2.0/Frame 4.png" alt="">
+               <img src="imagens2.0/Frame 5.png" alt="">
+            </div>
+        </div>
+        
+
+        <div class="row branco">
+            <div class="col-md-3 d-flex align-items-center">
+                <img src="imagens2.0/5.jpg" style="max-width: 100%;" alt="">
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <h1 class="tituloslanche">Smash burguer fenomenal </h1> 
+                <p>Pão de gergilin, hamburguer 180g e muito queijo cheddar.</p>
+                <h3>R$ 18,90</h3>
+            </div>
+
+            <div class="col-md-3 d-flex align-items-center ">
+                <button class="euquero">EU QUERO!</button>
+            </div>
+        </div>
+
+
+        <div class="row" style="background-color: #f2e8b4;">
+            <div class="col-md-3 d-flex align-items-center">
+                <img src="imagens2.0/6.jpg" style="max-width: 100%;" alt="">
+            </div>
+            
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <h1 class="tituloslanche">Extremo picante burguer</h1> 
+                <p>Pão de gergilin, hamburguer 180g e muito queijo cheddar, salada e molho especial de pimenta</p>
+                <h3>R$ 24,90</h3>
+            </div>
+
+            <div class="col-md-3 d-flex align-items-center ">
+                <button class="euquero">EU QUERO!</button>
+            </div>
+        </div>
+
+        <div class="row branco">
+            <div class="col-md-3 d-flex align-items-center">
+                <img src="imagens2.0/7.jpg" style="max-width: 100%;" alt="">
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <h1 class="tituloslanche">Combo Picles</h1> 
+                <p>Pão de gergilin, hamburguer 180g e salada com picles. acompanha batata de 250g e refrigerante de 350ml</p>
+                <h3>R$ 39,90</h3>
+            </div>
+
+            <div class="col-md-3 d-flex align-items-center ">
+                <button class="euquero">EU QUERO!</button>
+            </div>
+        </div>
+      </div>
+        
+
+
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-3 col-sm-12 vermelho_2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59429.42666406837!2d-50.11897242372932!3d-21.41590978712405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9496015d7b570b85%3A0x3182424a357ac901!2sPen%C3%A1polis%2C%20SP%2C%2016300-000!5e0!3m2!1spt-BR!2sbr!4v1694527221868!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+            <div class="col-md-5 col-sm-12 vermelho_2">
+                <p >FALE CONOSCO</p>
+
+                <form action="">
+                    <div class="mb-3">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1" class="form-label">NOME</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="José Rico e Milionário">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1" class="form-label">E-MAIL</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome-sobrenome@hotmail.com">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1" class="form-label">TELEFONE</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="11994685670">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1" class="form-label">DIGITE SUA MENSAGEM</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Seu texto">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-danger">Enviar</button>
+                        </div>
+                    </div>
+
+                </form>
+            
+           
+            </div>
+        </div>
+
+        <div class="row vermelho_3 d-flex justify-content-center align-items-center" style="background-image: url(imagens2.0/fundovermelhofinal.jpeg);"> 
+            
+            <div class="col-md-1"></div>
+            <div class="col-md-4 col-sm-12">
+                <p class="segue">SEGUE  A </p>
+                <p class="segue">G E N T E</p>
+                <div class="instagramgeral d-flex">
+                    <img src="imagens2.0/instagram.svg" alt="" class="instagram">
+                    <p>estacaolanche</p>
+                </div>
+                <div class="youtubegeral d-flex">
+                    <img src="imagens2.0/youtube.svg" alt="" class="youtube">
+                    <p>estacaolanchetv</p>
+                </div>
+                <div class="tiktokgeral d-flex">
+                    <img src="imagens2.0/tiktok.svg" alt="" class="tiktok">
+                    <p>estacaolanche</p>
+                </div>            
+            </div>
+            <div class="col-sm-12 col-md-7 ">
+                <div class="row">
+
+                    <div class="col-md-6 col-sm-12 cinza" style="background-image: url(imagens2.0/8.jpg); background-size: cover;
+                    background-position: center;">
+                    </div> 
+
+                    <div class="col-md-6 col-sm-12 cinza" style="background-image: url(imagens2.0/9.jpg); background-size: cover;
+                    background-position: center;">
+                    </div> 
+
+                    <div class="col-md-4 col-sm-12 cinza" style="background-image: url(imagens2.0/10.jpg); background-size: cover;
+                    background-position: center;">
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 cinza" style="background-image: url(imagens2.0/11.jpg); background-size: cover;
+                    background-position: center;">
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 cinza" style="background-image: url(imagens2.0/12.jpg); background-size: cover;
+                    background-position: center;">
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div class="row pt-3 pb-3" style="background-color: #FFD704;">
+                <div class="col-md-4 col-sm-12 d-flex justify-content-center align-items-center">
+                    <p><img src="imagens2.0/1.svg" alt="" class="logolanche"> Estação do lanche</p>
+                </div>
+                <div class="col-md-8 col-sm-12 text-end">
+                    <p>(18) 99123-1234 / (18) 3636</p>
+                    <p>Rua Lorem ipsum N° 123, Centro - Birigui / SP</p>
+                </div>
+        </div>
+    </div>
+    
+</body>
+</html>
